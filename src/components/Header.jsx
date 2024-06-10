@@ -10,9 +10,9 @@ export const Header = () => {
           <img src={logo} alt="Copykeeper Logo" className={style.logoImg} />
         </div>
         <ul className={style.navLinks}>
-          <li className={style.navItem}><a href="#" className={style.navLink}>Nav Item 1</a></li>
-          <li className={style.navItem}><a href="#" className={style.navLink}>Nav Item 2</a></li>
-          <li className={style.navItem}><a href="#" className={style.navLink}>Nav Item 3</a></li>
+          <li className={style.navItem}><a href="#" className={style.navLink}>History</a></li>
+          <li className={style.navItem}><a href="#" className={style.navLink}>Tools</a></li>
+          <li className={style.navItem}><a href="#" className={style.navLink}>Contact</a></li>
         </ul>
       </nav>
     </header>

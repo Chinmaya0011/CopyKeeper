@@ -1,47 +1,45 @@
 /* header.module.css */
-
-/* Header */
 .header {
-    background-color: #333;
-    padding: 20px 0;
-  }
-  
-  /* Navigation */
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  /* Logo */
-  .logo {
-    width: 120px;
-  }
-  
-  .logoImg {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Navigation Links */
-  .navLinks {
-    list-style: none;
-    display: flex;
-  }
-  
-  .navItem {
-    margin-right: 20px;
-  }
-  
-  .navLink {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s ease;
-  }
-  
-  .navLink:hover {
-    color: #00bcd4;
-  }
-  
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Push the logo to the left */
+}
+
+.logoImg {
+  height: 40px;
+  width: auto;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #007bff;
+}
