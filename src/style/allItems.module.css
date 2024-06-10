@@ -1,0 +1,73 @@
+/* allItems.module.css */
+
+.allItems {
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filterLabel {
+    margin-right: 10px;
+  }
+  
+  .prioritySelect {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .datePicker {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .noItemsMessage {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .dateGroup {
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .dateHeading {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .itemList {
+    gap: 10px;
+   display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item {
+    
+    height: 300px;
+    width:300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add a gap between items */
+    margin-top: 10px; /* Add margin-top to all items */
+  }
+  
+  .itemName {
+    font-weight: bold;
+  }
+  
+  .itemNotes {
+    color: #555;
+  }
+  
+  .itemPriority {
+    font-style: italic;
+  }
+  
