@@ -1,0 +1,47 @@
+/* header.module.css */
+
+/* Header */
+.header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  /* Navigation */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 120px;
+  }
+  
+  .logoImg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Navigation Links */
+  .navLinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-right: 20px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #00bcd4;
+  }
+  

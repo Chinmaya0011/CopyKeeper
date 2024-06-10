@@ -1,0 +1,37 @@
+/* Common styles for all list items */
+.listItem {
+  display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2px;
+    border: 1px solid slategray;
+    cursor: pointer; /* Add this line for pointer cursor */
+  }
+  
+  /* Specific background colors for each item */
+  .white {
+    background-color: white;
+  }
+  
+  .black {
+    background-color: black;
+    color: white; /* Ensure text is visible */
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  

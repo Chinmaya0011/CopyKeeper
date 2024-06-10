@@ -1,11 +1,13 @@
 import React from 'react'
-import AddItems from './components/AddItems'
+import HomePage from './HomePage'
+import { ItemProvider } from './context/ItemContext.jsx'
 const App = () => {
   return (
+    <ItemProvider>
     <div>
-      <AddItems/>
+<HomePage/>
     </div>
-  )
+ </ItemProvider> )
 }
 
 export default App
