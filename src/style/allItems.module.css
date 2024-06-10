@@ -40,24 +40,27 @@
     font-size: 18px;
     color: #333;
   }
-  
-  .itemList {
+  /* allItems.module.css */
+
+.itemList {
+    width: 100%;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
     gap: 10px;
-   display: flex;
-    list-style: none;
     padding: 0;
   }
   
   .item {
-    
     height: 300px;
-    width:300px;
+    min-width: 300px; /* Set a minimum width to prevent items from shrinking */
+    flex: 0 0 auto; /* Reset flex basis */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px; /* Add a gap between items */
+    margin-right: 10px; /* Add a gap between items */
     margin-top: 10px; /* Add margin-top to all items */
   }
+  
   
   .itemName {
     font-weight: bold;
